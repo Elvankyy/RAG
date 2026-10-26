@@ -1,0 +1,113 @@
+{
+  "meta": {
+    "name": "知识库管理平台",
+    "version": "1.0",
+    "source": "pen.dev prototype + frontend/src/styles/tokens.css",
+    "updatedAt": "2026-10-24"
+  },
+  "color": {
+    "primary": "#2563EB",
+    "primarySoft": "#EFF4FF",
+    "success": "#12B76A",
+    "successSoft": "#ECFDF3",
+    "warning": "#F79009",
+    "warningSoft": "#FFFAEB",
+    "danger": "#F04438",
+    "dangerSoft": "#FEF3F2",
+    "purple": "#7C5CFC",
+    "purpleSoft": "#F4F1FF",
+    "sidebar": "#0B1220",
+    "sidebarHover": "#16213A",
+    "sidebarText": "#94A3B8",
+    "bg": "#F5F7FB",
+    "surface": "#FFFFFF",
+    "border": "#E4E8F0",
+    "borderStrong": "#C7D4EA",
+    "text": "#0F172A",
+    "text2": "#475467",
+    "text3": "#98A2B3"
+  },
+  "font": {
+    "body": "Noto Sans SC",
+    "number": "Inter",
+    "fallback": "-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
+  },
+  "fontSize": {
+    "pageTitle": 20,
+    "sectionTitle": 15,
+    "cardTitle": 13,
+    "body": 12.5,
+    "caption": 10.5,
+    "micro": 9.5,
+    "metric": 23
+  },
+  "fontWeight": {
+    "regular": 400,
+    "medium": 500,
+    "semibold": 600,
+    "bold": 700
+  },
+  "lineHeight": {
+    "tight": 1.3,
+    "body": 1.6,
+    "prose": 1.75
+  },
+  "spacing": {
+    "xxs": 4,
+    "xs": 6,
+    "sm": 8,
+    "md": 12,
+    "lg": 16,
+    "xl": 22,
+    "xxl": 28,
+    "xxxl": 40
+  },
+  "radius": {
+    "tag": 4,
+    "button": 8,
+    "input": 8,
+    "card": 12,
+    "modal": 16,
+    "pill": 999
+  },
+  "shadow": {
+    "card": "0 1px 2px rgba(16, 24, 40, 0.04)"
+  },
+  "layout": {
+    "sidebarWidth": 232,
+    "topbarHeight": 62,
+    "contentPadding": 28,
+    "loginBrandWidth": 600,
+    "loginCardWidth": 392,
+    "pageWidth": 1440,
+    "pageHeight": 900
+  },
+  "components": {
+    "button": {
+      "height": [32, 34, 44],
+      "primary": { "background": "#2563EB", "text": "#FFFFFF" },
+      "secondary": { "background": "#FFFFFF", "text": "#475467", "border": "#E4E8F0" }
+    },
+    "input": {
+      "height": [34, 36, 44],
+      "background": "#F9FAFB",
+      "border": "#E4E8F0",
+      "radius": 8
+    },
+    "table": {
+      "headerHeight": 40,
+      "rowHeight": [46, 54],
+      "headerBackground": "#F9FAFB"
+    },
+    "tag": {
+      "fontSize": 9,
+      "padding": "2px 7px",
+      "radius": 4
+    }
+  },
+  "permission": {
+    "noticeLevel": "count",
+    "unauthorizedFields": ["count"],
+    "forbiddenFields": ["title", "unit_code", "content", "snippet"]
+  }
+}

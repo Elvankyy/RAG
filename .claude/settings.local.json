@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mkdir -p docs .claude/skills .claude/skills/_licenses)",
+      "Bash(curl -s \"https://api.github.com/repos/Mindrally/skills/commits/main\")",
+      "Bash(python -c \"import sys,json; d=json.load\\(sys.stdin\\); print\\('mindrally', d.get\\('sha'\\), d.get\\('commit',{}\\).get\\('committer',{}\\).get\\('date'\\)\\)\")",
+      "Bash(curl -s \"https://api.github.com/repos/yonatangross/orchestkit/commits/main\")",
+      "Bash(python -c \"import sys,json; d=json.load\\(sys.stdin\\); print\\('orchestkit', d.get\\('sha'\\), d.get\\('commit',{}\\).get\\('committer',{}\\).get\\('date'\\)\\)\")"
+    ]
+  }
+}

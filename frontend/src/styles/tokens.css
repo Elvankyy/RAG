@@ -1,0 +1,45 @@
+:root {
+  --kb-bg: #f5f7fb;
+  --kb-surface: #ffffff;
+  --kb-border: #e4e8f0;
+  --kb-border-strong: #c7d4ea;
+  --kb-text: #0f172a;
+  --kb-text-2: #475467;
+  --kb-text-3: #98a2b3;
+  --kb-primary: #2563eb;
+  --kb-primary-soft: #eff4ff;
+  --kb-success: #12b76a;
+  --kb-success-soft: #ecfdf3;
+  --kb-warning: #f79009;
+  --kb-warning-soft: #fffaeb;
+  --kb-danger: #f04438;
+  --kb-danger-soft: #fef3f2;
+  --kb-purple: #7c5cfc;
+  --kb-purple-soft: #f4f1ff;
+  --kb-sidebar: #0b1220;
+  --kb-sidebar-hover: #16213a;
+  --kb-sidebar-text: #94a3b8;
+  --kb-radius: 10px;
+  --kb-radius-lg: 12px;
+  --kb-shadow: 0 1px 2px rgba(16, 24, 40, 0.04);
+  --kb-font: 'Noto Sans SC', 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --kb-font-num: 'Inter', 'Noto Sans SC', sans-serif;
+
+  --el-color-primary: #2563eb;
+  --el-color-primary-light-3: #5b8def;
+  --el-color-primary-light-5: #8fb3f5;
+  --el-color-primary-light-7: #c3d6fa;
+  --el-color-primary-light-8: #dbe7fc;
+  --el-color-primary-light-9: #eff4ff;
+  --el-color-primary-dark-2: #1d4ed8;
+  --el-color-success: #12b76a;
+  --el-color-warning: #f79009;
+  --el-color-danger: #f04438;
+  --el-border-radius-base: 8px;
+  --el-border-radius-small: 6px;
+  --el-font-family: var(--kb-font);
+  --el-text-color-primary: #0f172a;
+  --el-text-color-regular: #475467;
+  --el-border-color: #e4e8f0;
+  --el-border-color-light: #eef2f7;
+}

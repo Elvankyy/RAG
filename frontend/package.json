@@ -1,0 +1,50 @@
+{
+  "name": "knowledge-platform-frontend",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc -b && vite build",
+    "preview": "vite preview",
+    "typecheck": "vue-tsc -b",
+    "e2e:smoke": "node scripts/e2e-smoke.mjs",
+    "e2e:chat": "node scripts/e2e-chat.mjs",
+    "e2e:knowledge": "node scripts/e2e-knowledge.mjs",
+    "e2e:org": "node scripts/e2e-org.mjs",
+    "e2e:dashboard": "node scripts/e2e-dashboard.mjs",
+    "e2e:settlement": "node scripts/e2e-settlement.mjs",
+    "e2e:all": "node scripts/e2e-smoke.mjs && node scripts/e2e-chat.mjs && node scripts/e2e-knowledge.mjs && node scripts/e2e-org.mjs && node scripts/e2e-dashboard.mjs && node scripts/e2e-settlement.mjs",
+    "e2e:live": "node scripts/e2e-live.mjs"
+  },
+  "dependencies": {
+    "@element-plus/icons-vue": "^2.3.2",
+    "@microsoft/fetch-event-source": "^2.0.1",
+    "axios": "^1.20.0",
+    "dayjs": "^1.11.23",
+    "dompurify": "^3.4.17",
+    "echarts": "^6.1.0",
+    "element-plus": "^2.14.7",
+    "markdown-it": "^15.0.3",
+    "pinia": "^4.1.0",
+    "vue": "^3.5.44",
+    "vue-router": "^5.4.0"
+  },
+  "devDependencies": {
+    "@types/markdown-it": "^14.2.0",
+    "@types/node": "^24.19.2",
+    "@vitejs/plugin-vue": "^6.0.10",
+    "@vue/tsconfig": "^0.9.1",
+    "msw": "^3.0.3",
+    "playwright-core": "^1.64.1",
+    "typescript": "~6.0.3",
+    "vite": "^8.3.4",
+    "vue-tsc": "^3.3.13"
+  },
+  "msw": {
+    "workerDirectory": [
+      "public"
+    ]
+  },
+  "description": "知识库管理平台前端（Vue 3 + TypeScript + Element Plus）"
+}

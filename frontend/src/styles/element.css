@@ -1,0 +1,48 @@
+.el-button {
+  border-radius: 8px;
+  font-weight: 500;
+}
+
+.el-button--primary {
+  --el-button-bg-color: var(--kb-primary);
+  --el-button-border-color: var(--kb-primary);
+  --el-button-hover-bg-color: #1d4ed8;
+  --el-button-hover-border-color: #1d4ed8;
+}
+
+.el-input__wrapper {
+  border-radius: 8px;
+  background: #f9fafb;
+  box-shadow: 0 0 0 1px var(--kb-border) inset;
+}
+
+.el-input__wrapper:hover {
+  box-shadow: 0 0 0 1px var(--kb-border-strong) inset;
+}
+
+.el-input__wrapper.is-focus {
+  box-shadow: 0 0 0 1px var(--kb-primary) inset;
+}
+
+.el-input__inner {
+  font-family: var(--kb-font);
+}
+
+.el-form-item__label {
+  color: var(--kb-text-2);
+  font-size: 12.5px;
+  font-weight: 500;
+}
+
+.el-message {
+  border-radius: 8px;
+}
+
+.el-dropdown-menu__item {
+  font-size: 12.5px;
+}
+
+.el-card {
+  border-radius: var(--kb-radius-lg);
+  border-color: var(--kb-border);
+}
